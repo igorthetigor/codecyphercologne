@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/codecyphercologne/static/css/main.5f361e03.chunk.css",
+    "main.js": "/codecyphercologne/static/js/main.48a1e134.chunk.js",
+    "main.js.map": "/codecyphercologne/static/js/main.48a1e134.chunk.js.map",
+    "runtime-main.js": "/codecyphercologne/static/js/runtime-main.0f29aaf6.js",
+    "runtime-main.js.map": "/codecyphercologne/static/js/runtime-main.0f29aaf6.js.map",
+    "static/js/2.d22b4a7c.chunk.js": "/codecyphercologne/static/js/2.d22b4a7c.chunk.js",
+    "static/js/2.d22b4a7c.chunk.js.map": "/codecyphercologne/static/js/2.d22b4a7c.chunk.js.map",
+    "index.html": "/codecyphercologne/index.html",
+    "precache-manifest.a14edc04d74753ba0d4af26ab5ef277c.js": "/codecyphercologne/precache-manifest.a14edc04d74753ba0d4af26ab5ef277c.js",
+    "service-worker.js": "/codecyphercologne/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/codecyphercologne/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.d22b4a7c.chunk.js.LICENSE.txt": "/codecyphercologne/static/js/2.d22b4a7c.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/codecyphercologne/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0f29aaf6.js",
+    "static/js/2.d22b4a7c.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.48a1e134.chunk.js"
+  ]
+}
