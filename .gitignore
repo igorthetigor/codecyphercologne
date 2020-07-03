@@ -1,2 +1,6 @@
 #orga
 orga/
+
+#node
+node_modules/
+package-lock.json
