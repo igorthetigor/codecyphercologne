@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/codecyphercologne/static/css/main.5f361e03.chunk.css",
-    "main.js": "/codecyphercologne/static/js/main.eda9e4ee.chunk.js",
-    "main.js.map": "/codecyphercologne/static/js/main.eda9e4ee.chunk.js.map",
+    "main.css": "/codecyphercologne/static/css/main.d925a471.chunk.css",
+    "main.js": "/codecyphercologne/static/js/main.fe64a086.chunk.js",
+    "main.js.map": "/codecyphercologne/static/js/main.fe64a086.chunk.js.map",
     "runtime-main.js": "/codecyphercologne/static/js/runtime-main.0f29aaf6.js",
     "runtime-main.js.map": "/codecyphercologne/static/js/runtime-main.0f29aaf6.js.map",
-    "static/js/2.fbce6094.chunk.js": "/codecyphercologne/static/js/2.fbce6094.chunk.js",
-    "static/js/2.fbce6094.chunk.js.map": "/codecyphercologne/static/js/2.fbce6094.chunk.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/codecyphercologne/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.3a8cd5f4.chunk.js": "/codecyphercologne/static/js/2.3a8cd5f4.chunk.js",
+    "static/js/2.3a8cd5f4.chunk.js.map": "/codecyphercologne/static/js/2.3a8cd5f4.chunk.js.map",
     "index.html": "/codecyphercologne/index.html",
-    "precache-manifest.af79ca87802acf9032d2f5eebd2fd3d0.js": "/codecyphercologne/precache-manifest.af79ca87802acf9032d2f5eebd2fd3d0.js",
+    "precache-manifest.608c64e0a2fed191430c99dc65a5978c.js": "/codecyphercologne/precache-manifest.608c64e0a2fed191430c99dc65a5978c.js",
     "service-worker.js": "/codecyphercologne/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/codecyphercologne/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.fbce6094.chunk.js.LICENSE.txt": "/codecyphercologne/static/js/2.fbce6094.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/codecyphercologne/static/media/logo.5d5d9eef.svg"
+    "static/css/2.af3c1da9.chunk.css.map": "/codecyphercologne/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.d925a471.chunk.css.map": "/codecyphercologne/static/css/main.d925a471.chunk.css.map",
+    "static/js/2.3a8cd5f4.chunk.js.LICENSE.txt": "/codecyphercologne/static/js/2.3a8cd5f4.chunk.js.LICENSE.txt",
+    "static/media/3cLogo.png": "/codecyphercologne/static/media/3cLogo.4192f778.png",
+    "static/media/stylesheet.css": "/codecyphercologne/static/media/beon-webfont.84545563.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.0f29aaf6.js",
-    "static/js/2.fbce6094.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.eda9e4ee.chunk.js"
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.3a8cd5f4.chunk.js",
+    "static/css/main.d925a471.chunk.css",
+    "static/js/main.fe64a086.chunk.js"
   ]
 }
