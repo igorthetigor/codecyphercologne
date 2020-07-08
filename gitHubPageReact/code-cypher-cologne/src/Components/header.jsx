@@ -1,6 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from './3cLogo.png';
 import { BeonStyle } from './stuff/globalFont';
 
@@ -25,9 +24,14 @@ const Title = styled.h1`
   text-align: left;
 `;
 
+const initView = document.getElementById('root');
+
 export default function Header() {
+
+  // const [initView, setInitView] = useState(document.getElementById('root'));
+  
   return (
-    <Container fluid className="bg-primary" style={{position: 'fixed',}}>
+    <Container fluid className="bg-primary" style={{position: 'sticky', top: '0',}}>
       <BeonStyle />
       <Row>
         <Col>
@@ -36,7 +40,7 @@ export default function Header() {
           </Title>
         </Col>
         <Col>
-          <Image src= {`${logo}`} fluid style={imgStyle}/>
+          <Image src= {`${logo}`} fluid style={imgStyle} onClick={()=> {initView.scrollIntoView(true)}} />
         </Col>
       </Row>
     </Container>
