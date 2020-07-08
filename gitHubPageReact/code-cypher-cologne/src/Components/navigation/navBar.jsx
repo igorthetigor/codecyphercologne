@@ -11,9 +11,15 @@ const verticalDivider = {
 }
 
 export default function Navigation() {
-
   return (
     <>
+      <Navbar bg='dark' variant='dark'>
+        <Navbar.Brand
+          href='https://www.google.com/search?source=hp&ei=FQAFX57bCs-WsAeNw5joCA&q=hui&oq=hui&gs_lcp=CgZwc3ktYWIQAzICCAAyAggAMgIILjICCC4yAggAMggILhDHARCvATICCAAyAggAMgIIADICCC46CwguEMcBEKMCEJMCOggILhDHARCjAlD3PljLQWDgRWgBcAB4AIABeYgBpwKSAQMyLjGYAQCgAQGqAQdnd3Mtd2l6sAEA&sclient=psy-ab&ved=0ahUKEwjeuYzkoLzqAhVPC-wKHY0hBo0Q4dUDCAg&uact=5'
+          target='_blank'
+        >
+          home
+        </Navbar.Brand>
       <Navbar bg="dark" variant="dark">
         <Navbar.Brand href="https://duckduckgo.com/?q=learn+to+code&t=lm&ia=web" target="_blank">coden lernen</Navbar.Brand>
         <Nav className="d-inline-flex">
