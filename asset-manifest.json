@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/codecyphercologne/static/css/main.d925a471.chunk.css",
-    "main.js": "/codecyphercologne/static/js/main.02d0c5ac.chunk.js",
-    "main.js.map": "/codecyphercologne/static/js/main.02d0c5ac.chunk.js.map",
+    "main.js": "/codecyphercologne/static/js/main.587413ba.chunk.js",
+    "main.js.map": "/codecyphercologne/static/js/main.587413ba.chunk.js.map",
     "runtime-main.js": "/codecyphercologne/static/js/runtime-main.0f29aaf6.js",
     "runtime-main.js.map": "/codecyphercologne/static/js/runtime-main.0f29aaf6.js.map",
     "static/css/2.af3c1da9.chunk.css": "/codecyphercologne/static/css/2.af3c1da9.chunk.css",
     "static/js/2.2ae40991.chunk.js": "/codecyphercologne/static/js/2.2ae40991.chunk.js",
     "static/js/2.2ae40991.chunk.js.map": "/codecyphercologne/static/js/2.2ae40991.chunk.js.map",
     "index.html": "/codecyphercologne/index.html",
-    "precache-manifest.e37235cc2443423a8313e75c2807502a.js": "/codecyphercologne/precache-manifest.e37235cc2443423a8313e75c2807502a.js",
+    "precache-manifest.ed05b8a3f2916a280a6aebb384887731.js": "/codecyphercologne/precache-manifest.ed05b8a3f2916a280a6aebb384887731.js",
     "service-worker.js": "/codecyphercologne/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/codecyphercologne/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.d925a471.chunk.css.map": "/codecyphercologne/static/css/main.d925a471.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.2ae40991.chunk.js",
     "static/css/main.d925a471.chunk.css",
-    "static/js/main.02d0c5ac.chunk.js"
+    "static/js/main.587413ba.chunk.js"
   ]
 }
