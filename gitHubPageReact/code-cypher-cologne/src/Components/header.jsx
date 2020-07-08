@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import logo from './3cLogo.png';
 import { BeonStyle } from './stuff/globalFont';
+import Navigation from './navigation/navBar';
 
 //BOOTIESTRAP Components
 import Container from 'react-bootstrap/Container';
@@ -31,18 +32,21 @@ export default function Header() {
   // const [initView, setInitView] = useState(document.getElementById('root'));
   
   return (
-    <Container fluid className="bg-primary" style={{position: 'sticky', top: '0',}}>
-      <BeonStyle />
-      <Row>
-        <Col>
-          <Title>
-          CODE<br />CYPHER<br />COLOGNE
-          </Title>
-        </Col>
-        <Col>
-          <Image src= {`${logo}`} fluid style={imgStyle} onClick={()=> {initView.scrollIntoView(true)}} />
-        </Col>
-      </Row>
-    </Container>
+    <header style={{position: 'sticky', top: '0',}} >
+      <Container fluid className="bg-primary" >
+        <BeonStyle />
+        <Row>
+          <Col>
+            <Title>
+            CODE<br />CYPHER<br />COLOGNE
+            </Title>
+          </Col>
+          <Col>
+            <Image src= {`${logo}`} fluid style={imgStyle} onClick={()=> {initView.scrollIntoView(true)}} />
+          </Col>
+        </Row>
+      </Container>
+      <Navigation />
+    </header>
   );
 }
