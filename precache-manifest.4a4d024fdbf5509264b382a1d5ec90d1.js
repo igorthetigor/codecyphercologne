@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "da5210b534c8447915c9c1764dc09f98",
+    "revision": "8969b70549f60724ebe3a4afc6f2a2f1",
     "url": "/codecyphercologne/index.html"
   },
   {
-    "revision": "f8f13d905240e6b2c950",
+    "revision": "db0f8ecfdc2c954cf9dc",
     "url": "/codecyphercologne/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "7c36fb52da0610637c6a",
+    "revision": "eed437d887da022cbf9e",
     "url": "/codecyphercologne/static/css/main.d925a471.chunk.css"
   },
   {
-    "revision": "f8f13d905240e6b2c950",
-    "url": "/codecyphercologne/static/js/2.3a8cd5f4.chunk.js"
+    "revision": "db0f8ecfdc2c954cf9dc",
+    "url": "/codecyphercologne/static/js/2.66550097.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/codecyphercologne/static/js/2.3a8cd5f4.chunk.js.LICENSE.txt"
+    "url": "/codecyphercologne/static/js/2.66550097.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7c36fb52da0610637c6a",
-    "url": "/codecyphercologne/static/js/main.fe64a086.chunk.js"
+    "revision": "eed437d887da022cbf9e",
+    "url": "/codecyphercologne/static/js/main.ba54b243.chunk.js"
   },
   {
     "revision": "15620a0560cee81310be",
