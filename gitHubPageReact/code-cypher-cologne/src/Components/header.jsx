@@ -19,7 +19,8 @@ const imgStyle = {
   width: 'auto',
   padding: '10px 0px',
   borderRadius: '35px',
-}
+  cursor: 'pointer',
+};
 
 const Title = styled.h1`
   text-align: left;
@@ -28,21 +29,31 @@ const Title = styled.h1`
 const initView = document.getElementById('root');
 
 export default function Header() {
-
   // const [initView, setInitView] = useState(document.getElementById('root'));
-  
+
   return (
-    <header style={{position: 'sticky', top: '0',}} >
-      <Container fluid className="bg-primary" >
+    <header style={{ position: 'sticky', top: '0' }}>
+      <Container fluid className='bg-primary'>
         <BeonStyle />
         <Row>
           <Col>
             <Title>
-            CODE<br />CYPHER<br />COLOGNE
+              CODE
+              <br />
+              CYPHER
+              <br />
+              COLOGNE
             </Title>
           </Col>
           <Col>
-            <Image src= {`${logo}`} fluid style={imgStyle} onClick={()=> {initView.scrollIntoView(true)}} />
+            <Image
+              src={`${logo}`}
+              fluid
+              style={imgStyle}
+              onClick={() => {
+                initView.scrollIntoView(true);
+              }}
+            />
           </Col>
         </Row>
       </Container>
