@@ -12,14 +12,13 @@ import Image from 'react-bootstrap/Image';
 
 const imgStyle = {
   position: 'absolute',
-  top: '50%',
-  left: '50%',
-  transform: 'translate(-50%, -50%)',
-  height: '10vh',
-  width: 'auto',
-  padding: '10px 0px',
-  borderRadius: '35px',
+  height: '125%',
+  top: '-15px',
+  // width: 'auto',
+  // padding: '10px 0px',
+  borderRadius: '5px',
   cursor: 'pointer',
+  mixBlendMode: 'multiply',
 };
 
 const Title = styled.h1`
