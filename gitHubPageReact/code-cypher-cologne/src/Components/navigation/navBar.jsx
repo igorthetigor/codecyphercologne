@@ -1,38 +1,39 @@
 import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
+import MenuIcon from '@material-ui/icons/Menu';
 
 function whoWeAre() {
   console.log('we are gayyyyyyyyyyyyyyy');
 }
 
 const verticalDivider = {
-  'borderLeft': '6px solid white',
-  'display': '100px', 
+  borderLeft: '6px solid white',
+  paddingLeft: '10px',
+};
+
+const navi = {
+  listStyleType: 'none',
+  backgroundColor: '#30475e',
+  paddingLeft: '17px',
+};
+
+function responsiveFunc() {
+  const myList = document.getElementById("topNav");
+  myList.className = myList.className === "topnav"
+  ? myList.className += " responsive"
+  : myList.className = "topnav"; 
 }
 
 export default function Navigation() {
   return (
-    <>
-      <Navbar bg='dark' variant='dark'>
-        <Navbar.Brand
-          href='https://www.google.com/search?source=hp&ei=FQAFX57bCs-WsAeNw5joCA&q=hui&oq=hui&gs_lcp=CgZwc3ktYWIQAzICCAAyAggAMgIILjICCC4yAggAMggILhDHARCvATICCAAyAggAMgIIADICCC46CwguEMcBEKMCEJMCOggILhDHARCjAlD3PljLQWDgRWgBcAB4AIABeYgBpwKSAQMyLjGYAQCgAQGqAQdnd3Mtd2l6sAEA&sclient=psy-ab&ved=0ahUKEwjeuYzkoLzqAhVPC-wKHY0hBo0Q4dUDCAg&uact=5'
-          target='_blank'
-        >
-          home
-        </Navbar.Brand>
-      <Navbar bg="dark" variant="dark">
-        <Navbar.Brand href="https://duckduckgo.com/?q=learn+to+code&t=lm&ia=web" target="_blank">coden lernen</Navbar.Brand>
-        <Nav className="d-inline-flex">
-          <Nav.Link onClick={whoWeAre}>Über uns</Nav.Link>
-          <div style= {verticalDivider}></div>
-          <Nav.Link onClick={whoWeAre}>code cypher cologne Projekt</Nav.Link>
-          <div style= {verticalDivider}></div>
-          <Nav.Link onClick={whoWeAre}>Anmeldung</Nav.Link>
-          <div style= {verticalDivider}></div>
-          <Nav.Link onClick={whoWeAre}>Kontakt</Nav.Link>
-          <Nav.Link onClick={whoWeAre} style={{marginLeft:'40px',}} >Impressum</Nav.Link>
-        </Nav>        
-      </Navbar>
-    </>
+    <ul className="topnav" id="topNav" style={navi}>
+      <li><a href="https://duckduckgo.com/?q=learn+to+code&t=lm&ia=web" target="_blank">coden lernen</a></li>
+      <li style={verticalDivider}><a href="javascript:void(0)" target="_blank" onClick={whoWeAre}>hosts</a></li>
+      <li style={verticalDivider}><a href="">code cypher</a></li>
+      <li style={verticalDivider}><a href="">Anmeldung</a></li>
+      <li style={verticalDivider}><a href="">Kontakt</a></li>
+      <li style={verticalDivider}><a href="">Impressum</a></li>
+      {/* <li><a href="">{<MenuIcon/>}</a></li> */}
+      <li className="burgerMenu"><MenuIcon onClick={responsiveFunc} /> </li>
+    </ul>
   );
 }

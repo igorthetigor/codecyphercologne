@@ -19,6 +19,7 @@ const imgStyle = {
   borderRadius: '5px',
   cursor: 'pointer',
   mixBlendMode: 'multiply',
+  marginRight: '10px',
 };
 
 const Title = styled.h1`
@@ -31,8 +32,8 @@ export default function Header() {
   // const [initView, setInitView] = useState(document.getElementById('root'));
 
   return (
-    <header style={{ position: 'sticky', top: '0' }}>
-      <Container fluid className='bg-primary'>
+    <header style={{ position: 'sticky', top: '0', }}>
+      <Container fluid className='bg-primary' >
         <BeonStyle />
         <Row>
           <Col>
