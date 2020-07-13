@@ -1,16 +1,20 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { BeonStyle } from './Components/stuff/globalFont';
 
 // Los Components
-import Header from './Components/header';
-import Testing from './Components/contentBody';
+import HeaderTitle from './Components/header';
+import Navigation from './Components/navigation/navBar';
+import Content from './Components/contentBody';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Testing />
+      <BeonStyle />
+      <HeaderTitle />
+      <Navigation />
+      <Content />
     </div>
   );
 }

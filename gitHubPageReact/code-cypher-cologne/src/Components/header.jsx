@@ -1,63 +1,76 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import logo from './3cLogo.png';
-import { BeonStyle } from './stuff/globalFont';
-import Navigation from './navigation/navBar';
 
-//BOOTIESTRAP Components
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Image from 'react-bootstrap/Image';
 
 const imgStyle = {
-  position: 'absolute',
-  height: '125%',
-  top: '-15px',
+  // position: 'absolute',
+  // height: '15%',
+  // top: '-15px',
   // width: 'auto',
   // padding: '10px 0px',
+  height: '5rem',
+  width: 'auto',
   borderRadius: '5px',
   cursor: 'pointer',
   mixBlendMode: 'multiply',
   marginRight: '10px',
 };
 
+const Header = styled.header`
+  background-color: skyblue;
+  display: flex;
+  
+`;
+
 const Title = styled.h1`
+  /* display: inline-block; */
   text-align: left;
+  margin-bottom: 0;
+  padding-left: 17px;
+`;
+
+const UnsereMarke = styled.div`
+width:50%;
+`;
+
+const UnserLogo = styled.div`
+  width: 50%;
+  img {
+    position: relative;
+    top: 18%;
+    float: right;
+    cursor: pointer;
+    mix-blend-mode: multiply;
+    height: 6rem;
+    width: auto;
+  }
 `;
 
 const initView = document.getElementById('root');
 
-export default function Header() {
+export default function HeaderTitle() {
   // const [initView, setInitView] = useState(document.getElementById('root'));
 
   return (
-    <header style={{ position: 'sticky', top: '0', }}>
-      <Container fluid className='bg-primary' >
-        <BeonStyle />
-        <Row>
-          <Col>
-            <Title>
-              CODE
-              <br />
-              CYPHER
-              <br />
-              COLOGNE
-            </Title>
-          </Col>
-          <Col>
-            <Image
-              src={`${logo}`}
-              fluid
-              style={imgStyle}
-              onClick={() => {
-                initView.scrollIntoView(true);
-              }}
-            />
-          </Col>
-        </Row>
-      </Container>
-      <Navigation />
-    </header>
+    <Header fluid className='bg-primary' >
+      <UnsereMarke>
+        <Title>
+          CODE
+          <br />
+          CYPHER
+          <br />
+          COLOGNE
+        </Title>
+      </UnsereMarke>
+      <UnserLogo>
+        <img
+          src={`${logo}`}
+          onClick={() => {
+            initView.scrollIntoView(true);
+          }}
+        />
+      </UnserLogo>
+    </Header>    
   );
 }
