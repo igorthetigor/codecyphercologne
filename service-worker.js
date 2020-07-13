@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/codecyphercologne/precache-manifest.75c2d440eb7d41a9e0fd39ad227ef1b3.js"
+  "/codecyphercologne/precache-manifest.67b940fa4483ed43b4b3d0f33dce0622.js"
 );
 
 self.addEventListener('message', (event) => {
