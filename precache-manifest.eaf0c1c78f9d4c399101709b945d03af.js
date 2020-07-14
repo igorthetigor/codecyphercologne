@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6079b1145ff51bf757885a06d1b5059e",
+    "revision": "baa39613342b23d75b7c396db03ac42a",
     "url": "/codecyphercologne/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/codecyphercologne/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "1c136b185737964786f5",
+    "revision": "e87c34fa9ff702e9083d",
     "url": "/codecyphercologne/static/css/main.d925a471.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/codecyphercologne/static/js/2.333b89c4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1c136b185737964786f5",
-    "url": "/codecyphercologne/static/js/main.bdab6234.chunk.js"
+    "revision": "e87c34fa9ff702e9083d",
+    "url": "/codecyphercologne/static/js/main.a34059c2.chunk.js"
   },
   {
     "revision": "15620a0560cee81310be",
