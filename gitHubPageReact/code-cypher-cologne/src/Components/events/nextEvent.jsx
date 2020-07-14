@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 const EventDate = styled.h1`
 background-color: black;
+scroll-margin-top: 31px;
 `;
 
 const AboutEvent = styled.p`
@@ -14,7 +15,7 @@ padding-right: 3px;
 function Event() {
   return(
     <>
-      <EventDate>
+      <EventDate id='eventsView'>
         02 - 08 - 2020<br /> SONNTAG
       </EventDate>
       <AboutEvent>

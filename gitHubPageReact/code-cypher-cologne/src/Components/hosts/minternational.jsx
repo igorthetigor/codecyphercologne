@@ -24,6 +24,7 @@ const ChrisH2 = styled.h1`
 background-color: black;
 text-align: left;
 padding-left: 3px;
+scroll-margin-top: 31px;
 `;
 
 // const chrisDiv = {
@@ -34,7 +35,7 @@ padding-left: 3px;
 
 function ChristophPic() {
   return(
-    <ChrisDiv className="host" id="minternational" >
+    <ChrisDiv className="host" >
       <img src="https://ca.slack-edge.com/T0128S6164T-U0128L1CNDQ-9f277049c3c4-512" alt="Christoph Kuehn" />
     </ChrisDiv>
   );
@@ -43,7 +44,7 @@ function ChristophPic() {
 function ChristophDescription() {
   return(
     <>
-      <ChrisH2>Christopher</ChrisH2>
+      <ChrisH2 id="mintHost" >Christopher</ChrisH2>
       <AboutChris>
       I'm baby hammock sunt synth keytar food truck, kogi etsy four dollar toast do humblebrag cred sed labore street art typewriter. Fingerstache incididunt enamel pin pickled, ipsum fam put a bird on it swag exercitation hoodie. Normcore celiac kombucha bitters DIY forage. Viral eiusmod biodiesel cillum
       </AboutChris>

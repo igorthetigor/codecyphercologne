@@ -2,21 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import logo from './3cLogo.png';
 
-
-const imgStyle = {
-  // position: 'absolute',
-  // height: '15%',
-  // top: '-15px',
-  // width: 'auto',
-  // padding: '10px 0px',
-  height: '5rem',
-  width: 'auto',
-  borderRadius: '5px',
-  cursor: 'pointer',
-  mixBlendMode: 'multiply',
-  marginRight: '10px',
-};
-
 const Header = styled.header`
   background-color: skyblue;
   display: flex;
@@ -47,8 +32,6 @@ const UnserLogo = styled.div`
   }
 `;
 
-const initView = document.getElementById('root');
-
 export default function HeaderTitle() {
   // const [initView, setInitView] = useState(document.getElementById('root'));
 
@@ -66,9 +49,6 @@ export default function HeaderTitle() {
       <UnserLogo>
         <img
           src={`${logo}`}
-          onClick={() => {
-            initView.scrollIntoView(true);
-          }}
         />
       </UnserLogo>
     </Header>    

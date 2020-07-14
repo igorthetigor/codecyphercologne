@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 const Title = styled.h1`
 background-color: black;
+scroll-margin-top: 31px;
 `;
 
 const AboutAnmeldung = styled.p`
@@ -14,7 +15,7 @@ padding-right: 3px;
 function Anmeldung() {
   return(
     <>
-      <Title>
+      <Title id='regView'>
         Anmeldung
       </Title>
       <AboutAnmeldung>

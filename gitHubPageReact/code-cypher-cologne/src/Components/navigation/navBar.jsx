@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styled from 'styled-components';
 import MenuIcon from '@material-ui/icons/Menu';
 import HomeIcon from '@material-ui/icons/Home';
@@ -7,6 +7,7 @@ const MyLink = styled.a`
 &:hover {
   text-decoration:none;
   color:white;
+  cursor: pointer;
 }
 color: white;
 `;
@@ -47,6 +48,10 @@ const navi = {
 let responsive = false;
 
 function responsiveFunc() {
+  if(window.innerWidth >= 1550){
+    console.log('nixda');
+    return;
+  }
   const nav = document.getElementById('topNav');
   if (responsive) {
     nav.className = 'topnav';
@@ -57,16 +62,78 @@ function responsiveFunc() {
   }
 }
 
+let initView, hostsView, eventsView, regView, contactView, imprView;
+
 export default function Navigation() {
+  useEffect(() => {
+    initView = document.getElementById('root');
+    hostsView = document.getElementById('mintHost');
+    eventsView = document.getElementById('eventsView');
+    regView = document.getElementById('regView');
+    contactView = document.getElementById('contactView');
+    imprView = document.getElementById('imprView');
+  }, [])
   return (
     <ul style={navi} className="topnav" id="topNav">
-      <MyListItem><HomeIcon /></MyListItem>
-      <MyListItem style={verticalDivider}><MyLink href="javascript:void(0)" onClick={() => {console.log('click')}}>hosts</MyLink></MyListItem>
-      <MyListItem style={verticalDivider}><MyLink href="javascript:void(0)">upcoming events</MyLink></MyListItem>
-      <MyListItem style={verticalDivider}><MyLink href="javascript:void(0)">Anmeldung</MyLink></MyListItem>
-      <MyListItem style={verticalDivider}><MyLink href="javascript:void(0)">Kontakt</MyLink></MyListItem>
-      <MyListItem style={verticalDivider}><MyLink href="javascript:void(0)">Impressum</MyLink></MyListItem>
-      <MyListItem className="burgerMenu"><MenuIcon onClick={responsiveFunc} /> </MyListItem>
+      <MyListItem>
+        <HomeIcon 
+          onClick={() => {
+            initView.scrollIntoView(true);
+            responsiveFunc();
+          }}
+        />
+      </MyListItem>
+      <MyListItem style={verticalDivider}>
+        <MyLink
+          onClick={() => {
+            hostsView.scrollIntoView();
+            responsiveFunc();
+          }}
+        >
+        hosts
+      </MyLink>
+      </MyListItem>
+      <MyListItem style={verticalDivider}>
+        <MyLink
+          onClick={() => {
+            eventsView.scrollIntoView();
+            responsiveFunc();
+          }}
+        >upcoming events
+        </MyLink>
+      </MyListItem>
+      <MyListItem style={verticalDivider}>
+        <MyLink
+          onClick={() => {
+            regView.scrollIntoView();
+            responsiveFunc();
+          }}
+        >Anmeldung
+        </MyLink>
+      </MyListItem>
+      <MyListItem style={verticalDivider}>
+        <MyLink
+          onClick={() => {
+            contactView.scrollIntoView();
+            responsiveFunc();
+          }}
+        >Kontakt
+        </MyLink>
+      </MyListItem>
+      <MyListItem style={verticalDivider}>
+        <MyLink
+          onClick={() => {
+            imprView.scrollIntoView();
+            responsiveFunc();
+          }}
+        >Impressum
+        </MyLink>
+      </MyListItem>
+      <MyListItem className="burgerMenu">
+        <MenuIcon
+          onClick={responsiveFunc}
+        />
+      </MyListItem>
     </ul>
   );
 }

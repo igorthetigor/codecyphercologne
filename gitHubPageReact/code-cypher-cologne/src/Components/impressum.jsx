@@ -2,7 +2,9 @@ import React from 'react';
 
 function Impressum() {
   return(
-    <footer>
+    <footer
+      id='imprView'
+    >
       Hier unsere Kontaktdaten
     </footer>
   );
