@@ -12,14 +12,15 @@ import styled from 'styled-components';
 
 const HostsPic= styled.div`
 display: flex;
+flex-wrap: wrap;
 `;
 
 export default function Content() {
   return (
     <>
       <HostsPic>
-      <ChristophPic />
-      <IgorPic />
+        <ChristophPic />
+        <IgorPic />
       </HostsPic>
       <ChristophDescription />
       <IgorDescription />

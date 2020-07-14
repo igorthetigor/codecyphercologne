@@ -12,6 +12,23 @@ export const BeonStyle = createGlobalStyle`
     font-size: 1.4em;
   }
 
+  @media screen and (min-width: 960px) {
+    body {
+      background: repeating-linear-gradient(
+        -55deg,
+        #f6ba52,
+        #f6ba52 20px,
+        #ffd180 20px,
+        #ffd180 40px
+      );
+    }
+    #root {
+      width: 960px;
+      margin: auto;
+      background-color: white;
+    }
+  }
+
   @media screen and (max-width: 1550px) {
     .topnav li:not(:first-child) {display: none;}
     

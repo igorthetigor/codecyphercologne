@@ -7,8 +7,9 @@ const ChrisDiv = styled.div`
 
   img {
     float: left;
-    width: 180px;
-    height: 180px;
+    width: 100%;
+    /* width: 180px;
+    height: 180px; */
   }
 
 `;

@@ -8,8 +8,9 @@ const IgorDivTest = styled.div`
 
   img {
     float: right;
-    width: 180px;
-    height: 180px;
+    width: 100%;
+    /* width: 180px;
+    height: 180px; */
   }
 `;
 
