@@ -19,7 +19,13 @@ function Event() {
         02 - 08 - 2020<br /> SONNTAG
       </EventDate>
       <AboutEvent>
-      I'm baby hoodie poke ugh keffiyeh vice id tumeric retro microdosing small batch fingerstache tofu portland. Paleo gastropub nisi, pickled seitan cold-pressed heirloom kickstarter chambray mustache gluten-free pop-up labore vinyl pinterest. Trust fund dolore forage, cold-pressed cornhole lo-fi pop-up umami try-hard. Fashion axe mustache literally 8-bit food truck skateboard. Shaman ea dolor, glossier pinterest nostrud tote bag occaecat VHS farm-to-table pickled live-edge laboris deep v.
+        location: <span style={{fontWeight: 'bold'}}>Jülicher Str. 24a 50674 Köln</span><br />
+        <span style={{fontWeight: 'bold'}}>we open at: 12-00 and expect it to go for like 3 hours</span><br />
+        because it's the first event we organize and want to keep it 
+        comfortable and interesting for everybody, 
+        we will not set a concrete topic for this first event and decide adhoc
+        if we want to discuss a specific topic all together. 
+        Maybe one of you would like to introduce some topic to all of us.
       </AboutEvent>
     </>
   );

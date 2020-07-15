@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import logo from './3cLogo.png';
 
 const Header = styled.header`
-  background-color: #ff6000;
+  background-color: #FF1717;
   display: flex;
 `;
 

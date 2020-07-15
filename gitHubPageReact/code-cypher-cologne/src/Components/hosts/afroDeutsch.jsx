@@ -2,10 +2,17 @@ import React from 'react';
 import styled from 'styled-components';
 
 const AfroDiv = styled.div`
-img {
-  float: center;
+/* border-top: 8px solid #FF1717; */
+  background-color: #FF1717;
+a {
+  img {
+  /* float: center; */
   width: 260px;
   height: auto;
+  &hover {
+    cursor: pointer;
+  }
+  }
 }
 `;
 
@@ -18,7 +25,11 @@ padding-right: 10px;
 function AfroDeutschPic() {
   return(
     <AfroDiv id="afrdAdvert">
-      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.instaff.jobs%2Ffiles%2Fimages%2FOnvONtOcGfdGDZXiiuEAoXMd2duJej0JgVrehFOW.jpg&f=1&nofb=1" />
+      <a href="https://www.afrodeutsch-advertising.com/" target="_blank">
+        <img        
+          src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.instaff.jobs%2Ffiles%2Fimages%2FOnvONtOcGfdGDZXiiuEAoXMd2duJej0JgVrehFOW.jpg&f=1&nofb=1"
+        />        
+      </a>
     </AfroDiv>
   );
 }
@@ -26,7 +37,11 @@ function AfroDeutschPic() {
 function AfroDescription() {
   return(
     <AboutAfro>
-      I'm baby pabst ut hot chicken, fam consectetur man bun iPhone man braid venmo incididunt umami keytar. Biodiesel in dolore, austin everyday carry culpa id leggings cray pickled qui ea irony coloring book. Ethical chambray seitan sartorial bushwick banh mi. Wolf sunt next level kickstarter bushwick nulla. Adipisicing blue bottle dolore DIY minim organic semiotics chia godard vinyl.
+      Mit freundlichster Unterstützung von den Jungs von afrodeutsch advertising, 
+      die uns ihr Büro zur Verfügung stellen. Sie sind überragend im Bereich 
+      Marketing! Sie können jedes Produkt und jede Marke pushen. 
+      Die Jungs haben deutschlandweit ein Netzwerk von Promotern, Marketing-Menschen 
+      und Händlern. Checkt sie ab! Es gibt niemand besseren für Kundenaquise.
     </AboutAfro>
   );
 }

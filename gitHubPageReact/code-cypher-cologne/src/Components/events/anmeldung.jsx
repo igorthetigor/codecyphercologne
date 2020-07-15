@@ -16,7 +16,7 @@ function Anmeldung() {
   return(
     <>
       <Title id='regView'>
-        Anmeldung
+        check in
       </Title>
       <AboutAnmeldung>
         Meld dich an: AnmeldeForm - WtsApp/Tele - Slack

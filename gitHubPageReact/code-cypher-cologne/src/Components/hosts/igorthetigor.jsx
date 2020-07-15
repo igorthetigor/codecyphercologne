@@ -16,7 +16,7 @@ const IgorDivTest = styled.div`
 
 const AboutIgor = styled.p`
 text-align: right;
-padding-left: 20px;
+padding-left: 3px;
 padding-right: 3px;
 `;
 
@@ -39,7 +39,11 @@ function IgorDescription() {
     <>
       <IgorH2>Igor</IgorH2>
       <AboutIgor>
-        nahui Python
+        Experte für...<br />
+        Webentwicklung[...html/css/js, React, Node, RestAPI], Logistik, Heilkräuter, Wohlfühlatmosphäre, koffeinhaltige Getränke und gesundes Essen<br />
+        Kennt sich auch ein wenig aus mit...<br />
+        git, ubuntu, bash, MongoDb, WebRTC<br />
+        aims next: Golang
       </AboutIgor>
     </>
   );

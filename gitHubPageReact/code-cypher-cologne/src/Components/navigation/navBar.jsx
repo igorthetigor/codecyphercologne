@@ -118,7 +118,7 @@ export default function Navigation() {
             regView.scrollIntoView();
             responsiveFunc();
           }}
-        >anmeldung
+        >check in
         </MyLink>
       </MyListItem>
       <MyListItem style={verticalDivider}>
@@ -127,7 +127,7 @@ export default function Navigation() {
             contactView.scrollIntoView();
             responsiveFunc();
           }}
-        >kontakt
+        >contact
         </MyLink>
       </MyListItem>
       <MyListItem style={verticalDivider}>

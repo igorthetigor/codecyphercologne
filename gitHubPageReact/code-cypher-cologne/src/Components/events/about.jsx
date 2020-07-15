@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Title = styled.h1`
 background-color: black;
 scroll-margin-top: 30px;
-border-top: 8px solid #ff6000;
+border-top: 8px solid #FF1717;
 `;
 
 const AboutAbout = styled.p`
