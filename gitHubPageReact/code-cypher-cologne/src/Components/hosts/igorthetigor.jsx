@@ -39,7 +39,7 @@ function IgorDescription() {
     <>
       <IgorH2>Igor</IgorH2>
       <AboutIgor>
-        I'm baby hammock sunt synth keytar food truck, kogi etsy four dollar toast do humblebrag cred sed labore street art typewriter. Fingerstache incididunt enamel pin pickled, ipsum fam put a bird on it swag exercitation hoodie. Normcore celiac kombucha bitters DIY forage. Viral eiusmod biodiesel cillum.
+        nahui Python
       </AboutIgor>
     </>
   );

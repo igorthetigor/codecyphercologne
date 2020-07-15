@@ -3,6 +3,7 @@ import { ChristophPic, ChristophDescription } from '../Components/hosts/minterna
 import { IgorPic, IgorDescription } from '../Components/hosts/igorthetigor';
 import { AfroDeutschPic, AfroDescription } from '../Components/hosts/afroDeutsch';
 
+import { About } from '../Components/events/about';
 import { Event } from '../Components/events/nextEvent';
 import { Anmeldung } from '../Components/events/anmeldung';
 import { Kontakt } from '../Components/events/kontakt';
@@ -18,6 +19,7 @@ flex-wrap: wrap;
 export default function Content() {
   return (
     <>
+      <About />
       <HostsPic>
         <ChristophPic />
         <IgorPic />

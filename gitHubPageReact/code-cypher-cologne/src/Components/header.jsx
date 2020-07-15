@@ -3,9 +3,8 @@ import styled from 'styled-components';
 import logo from './3cLogo.png';
 
 const Header = styled.header`
-  background-color: skyblue;
+  background-color: #ff6000;
   display: flex;
-  
 `;
 
 const Title = styled.h1`
@@ -13,6 +12,7 @@ const Title = styled.h1`
   text-align: left;
   margin-bottom: 0;
   padding-left: 17px;
+  font-weight: bold;
 `;
 
 const UnsereMarke = styled.div`
@@ -36,7 +36,7 @@ export default function HeaderTitle() {
   // const [initView, setInitView] = useState(document.getElementById('root'));
 
   return (
-    <Header fluid className='bg-primary' >
+    <Header >
       <UnsereMarke>
         <Title>
           CODE

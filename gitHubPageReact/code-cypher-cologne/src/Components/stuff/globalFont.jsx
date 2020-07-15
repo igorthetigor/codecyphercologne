@@ -14,13 +14,11 @@ export const BeonStyle = createGlobalStyle`
 
   @media screen and (min-width: 960px) {
     body {
-      background: repeating-linear-gradient(
-        -55deg,
-        #f6ba52,
-        #f6ba52 20px,
-        #ffd180 20px,
-        #ffd180 40px
-      );
+      background: url("https://cdn.pixabay.com/photo/2019/06/13/05/44/cube-4270777_960_720.jpg") no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
     }
     #root {
       width: 960px;

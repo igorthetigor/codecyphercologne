@@ -62,11 +62,12 @@ function responsiveFunc() {
   }
 }
 
-let initView, hostsView, eventsView, regView, contactView, imprView;
+let initView, aboutView, hostsView, eventsView, regView, contactView, imprView;
 
 export default function Navigation() {
   useEffect(() => {
     initView = document.getElementById('root');
+    aboutView = document.getElementById('aboutView');
     hostsView = document.getElementById('mintHost');
     eventsView = document.getElementById('eventsView');
     regView = document.getElementById('regView');
@@ -79,9 +80,18 @@ export default function Navigation() {
         <HomeIcon 
           onClick={() => {
             initView.scrollIntoView(true);
-            responsiveFunc();
           }}
         />
+      </MyListItem>
+      <MyListItem style={verticalDivider}>
+        <MyLink
+          onClick={() => {
+            aboutView.scrollIntoView();
+            responsiveFunc();
+          }}
+        >
+        about
+        </MyLink>
       </MyListItem>
       <MyListItem style={verticalDivider}>
         <MyLink
@@ -108,7 +118,7 @@ export default function Navigation() {
             regView.scrollIntoView();
             responsiveFunc();
           }}
-        >Anmeldung
+        >anmeldung
         </MyLink>
       </MyListItem>
       <MyListItem style={verticalDivider}>
@@ -117,7 +127,7 @@ export default function Navigation() {
             contactView.scrollIntoView();
             responsiveFunc();
           }}
-        >Kontakt
+        >kontakt
         </MyLink>
       </MyListItem>
       <MyListItem style={verticalDivider}>
@@ -126,7 +136,7 @@ export default function Navigation() {
             imprView.scrollIntoView();
             responsiveFunc();
           }}
-        >Impressum
+        >impressum
         </MyLink>
       </MyListItem>
       <MyListItem className="burgerMenu">
