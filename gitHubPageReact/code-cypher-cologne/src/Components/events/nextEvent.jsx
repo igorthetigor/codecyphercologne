@@ -23,9 +23,9 @@ function Event() {
         <span style={{fontWeight: 'bold'}}>we open at: 12-00 and expect it to go for like 3 hours</span><br />
         because it's the first event we organize and want to keep it 
         comfortable and interesting for everybody, 
-        we will not set a concrete topic for this first event and decide adhoc
-        if we want to discuss a specific topic all together. 
-        Maybe one of you would like to introduce some topic to all of us.
+        we will not set a concrete topic for this first event. 
+        Instead we will discuss most promising technologies and topics 
+        for today and future tech and tech products from your perspective.
       </AboutEvent>
     </>
   );
