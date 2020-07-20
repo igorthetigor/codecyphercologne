@@ -8,7 +8,7 @@ export const BeonStyle = createGlobalStyle`
     overflow: hidden;
   }
 
-  p {
+  p, input, button {
     font-size: 1.4em;
   }
 

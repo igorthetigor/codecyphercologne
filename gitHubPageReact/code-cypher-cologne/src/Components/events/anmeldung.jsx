@@ -1,69 +1,39 @@
 import React from 'react';
 import styled from 'styled-components';
-import axios from 'axios';
+import { useState } from '@hookstate/core';
 
-const APInode = 'http://localhost:9000/register';
+import { RegForm } from './regForm';
+
+import axios from 'axios';
 
 const Title = styled.h1`
 background-color: black;
 scroll-margin-top: 31px;
 `;
 
-const AboutAnmeldung = styled.p`
+const AboutAnmeldung = styled.div`
 text-align: center;
 padding-left: 3px;
 padding-right: 3px;
 `;
 
 function Anmeldung() {
-const [regPlace, setPlace] = React.useState(0);
-
-const getRegs = async () => {
-  let a = new Promise ((resolve, reject) => {
-    fetch(APInode, {
-      method: 'GET',
-      mode: 'cors',
-      headers: {
-        'Content-Type': 'application/json'
-      }
-    })
-    .then(res => res.json())
-    .then(res => {
-      console.log(res);
-      resolve(res.message);
-    }).catch(err => console.log(err));
-  });
-  let result = await a;
-  return result;
-};
-
-const manualUpdate = () => {
-  getRegs()
-  .then(res => setPlace(res))
-  .catch(err => console.log(err));
-};
-
-React.useEffect(() => {
-  getRegs()
-  .then(res => {
-    document.title = res;
-    setPlace(res);
-  });
-}, []);
-
-
+  // freePlaces.promised? <CircularProgress color="secondary" />: freePlaces.value;
+  //////////////////////////////////////////////////
+  //////////////////////////////////////////////////
+  ///////declaring input states of reg form/////////
   return(
     <>
       <Title id='regView'>
         check in
       </Title>
       <AboutAnmeldung>
+        <RegForm />
         Meld dich an: AnmeldeForm - WtsApp/Tele - Slack
-        freie Plätze: {regPlace}
-        <button type="submit" onClick={() => manualUpdate() } >get</button>
       </AboutAnmeldung>
     </>
   );
 }
 
 export { Anmeldung }
+

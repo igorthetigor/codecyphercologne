@@ -86,8 +86,8 @@ export default function Navigation() {
       <MyListItem style={verticalDivider}>
         <MyLink
           onClick={() => {
-            aboutView.scrollIntoView();
             responsiveFunc();
+            aboutView.scrollIntoView(true);
           }}
         >
         about
@@ -96,8 +96,8 @@ export default function Navigation() {
       <MyListItem style={verticalDivider}>
         <MyLink
           onClick={() => {
-            hostsView.scrollIntoView();
             responsiveFunc();
+            hostsView.scrollIntoView(true);
           }}
         >
         hosts
@@ -106,8 +106,8 @@ export default function Navigation() {
       <MyListItem style={verticalDivider}>
         <MyLink
           onClick={() => {
-            eventsView.scrollIntoView();
             responsiveFunc();
+            eventsView.scrollIntoView(true);
           }}
         >upcoming events
         </MyLink>
@@ -115,8 +115,8 @@ export default function Navigation() {
       <MyListItem style={verticalDivider}>
         <MyLink
           onClick={() => {
-            regView.scrollIntoView();
             responsiveFunc();
+            regView.scrollIntoView(true);
           }}
         >check in
         </MyLink>
@@ -124,8 +124,8 @@ export default function Navigation() {
       <MyListItem style={verticalDivider}>
         <MyLink
           onClick={() => {
-            contactView.scrollIntoView();
             responsiveFunc();
+            contactView.scrollIntoView(true);
           }}
         >contact
         </MyLink>
@@ -133,8 +133,8 @@ export default function Navigation() {
       <MyListItem style={verticalDivider}>
         <MyLink
           onClick={() => {
-            imprView.scrollIntoView();
             responsiveFunc();
+            imprView.scrollIntoView(true);
           }}
         >impressum
         </MyLink>
