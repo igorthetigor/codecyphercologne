@@ -13,9 +13,14 @@ import PhoneAndroidIcon from '@material-ui/icons/PhoneAndroid';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 // const APInode = 'http://192.168.0.178:9000/register';
-const APInode = 'https://85.214.152.153/register';
+const APInode = 'https://nodeproxyccc.ue.r.appspot.com/register';
 
-const fetchFreePlace = () => fetch(APInode)
+const fetchFreePlace = () => fetch(APInode, {
+  method: 'GET',
+  headers: {
+    'Content-Type': 'application/json'
+  }
+})
   .then(res => res.json())
   .then(res => res.message);
 
