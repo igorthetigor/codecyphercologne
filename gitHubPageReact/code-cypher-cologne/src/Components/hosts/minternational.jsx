@@ -46,8 +46,17 @@ function ChristophDescription() {
     <>
       <ChrisH2 id="mintHost" >Christopher</ChrisH2>
       <AboutChris>
-      I'm baby hammock sunt synth keytar food truck, kogi etsy four dollar toast do humblebrag cred sed labore street art typewriter. Fingerstache incididunt enamel pin pickled, ipsum fam put a bird on it swag exercitation hoodie. Normcore celiac kombucha bitters DIY forage. Viral eiusmod biodiesel cillum
-      </AboutChris>
+      Beyond the basics:<br />
+      HTML, CSS, JS, React, Linux, Bash<br />
+      In Love with:<br />
+      CSS, Bootstrap, Tailwind, Styled Components, UX/UI Design, Styling in general<br />
+      General developer stuff:<br />
+      Git, Github,<br />
+      Non developer stuff I like:<br />
+      Cyberpunk, Technology in general, Movies, Pizza, Noodles<br />
+      In future I want:<br />
+      ... to become a way much better developer, Full-Stack-Nearly-Everything!<br />
+    </AboutChris>
     </>
   );
 }

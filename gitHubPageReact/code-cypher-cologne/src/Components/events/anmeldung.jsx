@@ -28,8 +28,9 @@ function Anmeldung() {
       </Title>
       <AboutAnmeldung>
         <RegForm />
-          <p>automated registry if we have free place<br />
-          alternatively registry: <a href="https://ianditalk.slack.com/archives/C016FMA071T" target="_blank">Slack Channel</a><br />
+          <p>this is just developer playground for me<br />
+          <del>alternatively registry: <a href="https://ianditalk.slack.com/archives/C016FMA071T" target="_blank">Slack Channel</a></del><br />
+          Slack will be replaced by discord<br />
           or whatsapp / telegramm +49 177 5578836<br />
           See you o/
         </p>
